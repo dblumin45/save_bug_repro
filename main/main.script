@@ -1,0 +1,5 @@
+local configurations = require "modules.configurations"
+
+function init(self) 
+	configurations.init()
+end
